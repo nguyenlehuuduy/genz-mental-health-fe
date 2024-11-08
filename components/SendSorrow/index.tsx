@@ -39,7 +39,7 @@ export default function SendSorrow({ listSound }: { listSound: any }) {
 
   const handleSubmit = async () => {
     if (message) {
-      setMsgMentalHeath({ mentalHeathQuote: '', arrayQuote: ('Thả lỏng và thư giãn một tí cậu nhé !') })
+      setMsgMentalHeath({ mentalHeathQuote: '', arrayQuote: ['Thả lỏng và thư giãn một tí cậu nhé !','Tớ ở đây cùng cậu'] })
       playAudio();
       await aiMentalHeathQuote(message).then(res => {
         if (res) {
