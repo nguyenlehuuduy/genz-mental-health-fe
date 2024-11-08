@@ -9,9 +9,13 @@ const Advertisement = ({ quoteHome }: { quoteHome: QuotesForCard }) => {
       <div className="w-[50%] pl-16 h-full flex flex-col justify-center items-start">
 
         <span className="pl-10">Thông điệp hôm nay dành cho bạn là : </span>
-        <i className="text-[#0f52ba] font-medium text-center">
+        {/* <i className="text-[#0f52ba] font-medium text-center">
         "Chậm chạp cũng được, không quá giỏi giang cũng được, điều quan trọng là phải nỗ lực.”
-        </i>
+        </i> */}
+        <i className="text-[#0f52ba] font-medium text-center">
+  &quot;Chậm chạp cũng được, không quá giỏi giang cũng được, điều quan trọng là phải nỗ lực.&quot;
+</i>
+
       </div>
       <div className="relative w-[50%] h-full">
         <Image
